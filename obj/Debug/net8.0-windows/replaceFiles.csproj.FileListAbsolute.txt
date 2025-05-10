@@ -1,0 +1,16 @@
+C:\Users\danie\Documents\GitHub\replaceFiles\bin\Debug\net8.0-windows\replaceFiles.exe
+C:\Users\danie\Documents\GitHub\replaceFiles\bin\Debug\net8.0-windows\replaceFiles.deps.json
+C:\Users\danie\Documents\GitHub\replaceFiles\bin\Debug\net8.0-windows\replaceFiles.runtimeconfig.json
+C:\Users\danie\Documents\GitHub\replaceFiles\bin\Debug\net8.0-windows\replaceFiles.dll
+C:\Users\danie\Documents\GitHub\replaceFiles\bin\Debug\net8.0-windows\replaceFiles.pdb
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.csproj.GenerateResource.cache
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.AssemblyInfo.cs
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.dll
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\refint\replaceFiles.dll
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.pdb
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.genruntimeconfig.cache
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\ref\replaceFiles.dll
+C:\Users\danie\Documents\GitHub\replaceFiles\obj\Debug\net8.0-windows\replaceFiles.Formulario.resources

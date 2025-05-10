@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63FBFF04-0952-4EF9-8B5F-31ED8293A0F0}|replaceFiles.csproj|c:\\users\\danie\\documents\\github\\replacefiles\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FBFF04-0952-4EF9-8B5F-31ED8293A0F0}|replaceFiles.csproj|solutionrelative:formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63FBFF04-0952-4EF9-8B5F-31ED8293A0F0}|replaceFiles.csproj|c:\\users\\danie\\documents\\github\\replacefiles\\analizarcarpetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FBFF04-0952-4EF9-8B5F-31ED8293A0F0}|replaceFiles.csproj|solutionrelative:analizarcarpetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63FBFF04-0952-4EF9-8B5F-31ED8293A0F0}|replaceFiles.csproj|c:\\users\\danie\\documents\\github\\replacefiles\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63FBFF04-0952-4EF9-8B5F-31ED8293A0F0}|replaceFiles.csproj|solutionrelative:formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "analizarCarpetas.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\analizarCarpetas.cs",
+              "RelativeDocumentMoniker": "analizarCarpetas.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\analizarCarpetas.cs",
+              "RelativeToolTip": "analizarCarpetas.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwvzoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T10:45:54.757Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Formulario.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\Formulario.cs",
+              "RelativeDocumentMoniker": "Formulario.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\Formulario.cs",
+              "RelativeToolTip": "Formulario.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:57:55.639Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Formulario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\Formulario.cs",
+              "RelativeDocumentMoniker": "Formulario.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\replaceFiles\\Formulario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formulario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T10:13:08.684Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
