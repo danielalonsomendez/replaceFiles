@@ -31,18 +31,18 @@
             textBoxProyecto = new TextBox();
             label1 = new Label();
             buttonProyecto = new Button();
-            folderBrowserDialog1 = new FolderBrowserDialog();
+            folderBrowserDialog = new FolderBrowserDialog();
             label2 = new Label();
             label3 = new Label();
-            textBoxFileName = new TextBox();
+            textBoxNombreArchivoBuscar = new TextBox();
             label4 = new Label();
-            textBox1 = new TextBox();
-            button1 = new Button();
-            openFileDialog1 = new OpenFileDialog();
+            textBoxRutaArchivoReemplazo = new TextBox();
+            buttonNuevoArchivo = new Button();
+            openFileDialog = new OpenFileDialog();
             label5 = new Label();
-            textBox2 = new TextBox();
-            button2 = new Button();
-            progressBar1 = new ProgressBar();
+            textBoxNuevoNombre = new TextBox();
+            buttonReemplazar = new Button();
+            progressBar = new ProgressBar();
             label6 = new Label();
             SuspendLayout();
             // 
@@ -52,7 +52,6 @@
             textBoxProyecto.Name = "textBoxProyecto";
             textBoxProyecto.Size = new Size(258, 22);
             textBoxProyecto.TabIndex = 0;
-            textBoxProyecto.TextChanged += textBoxProyecto_TextChanged;
             // 
             // label1
             // 
@@ -72,7 +71,7 @@
             buttonProyecto.TabIndex = 2;
             buttonProyecto.Text = "Examinar";
             buttonProyecto.UseVisualStyleBackColor = true;
-            buttonProyecto.Click += button1_Click;
+            buttonProyecto.Click += buttonProyecto_Click;
             // 
             // label2
             // 
@@ -92,12 +91,12 @@
             label3.TabIndex = 5;
             label3.Text = "Nombre del archivo a reemplazar:";
             // 
-            // textBoxFileName
+            // textBoxNombreArchivoBuscar
             // 
-            textBoxFileName.Location = new Point(12, 115);
-            textBoxFileName.Name = "textBoxFileName";
-            textBoxFileName.Size = new Size(258, 22);
-            textBoxFileName.TabIndex = 4;
+            textBoxNombreArchivoBuscar.Location = new Point(12, 115);
+            textBoxNombreArchivoBuscar.Name = "textBoxNombreArchivoBuscar";
+            textBoxNombreArchivoBuscar.Size = new Size(258, 22);
+            textBoxNombreArchivoBuscar.TabIndex = 4;
             // 
             // label4
             // 
@@ -109,27 +108,26 @@
             label4.TabIndex = 7;
             label4.Text = "Ruta del nuevo archivo";
             // 
-            // textBox1
+            // textBoxRutaArchivoReemplazo
             // 
-            textBox1.Location = new Point(285, 47);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(258, 22);
-            textBox1.TabIndex = 6;
-            textBox1.TextChanged += textBox1_TextChanged;
+            textBoxRutaArchivoReemplazo.Location = new Point(285, 47);
+            textBoxRutaArchivoReemplazo.Name = "textBoxRutaArchivoReemplazo";
+            textBoxRutaArchivoReemplazo.Size = new Size(258, 22);
+            textBoxRutaArchivoReemplazo.TabIndex = 6;
             // 
-            // button1
+            // buttonNuevoArchivo
             // 
-            button1.Location = new Point(468, 13);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 8;
-            button1.Text = "Examinar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
+            buttonNuevoArchivo.Location = new Point(468, 13);
+            buttonNuevoArchivo.Name = "buttonNuevoArchivo";
+            buttonNuevoArchivo.Size = new Size(75, 23);
+            buttonNuevoArchivo.TabIndex = 8;
+            buttonNuevoArchivo.Text = "Examinar";
+            buttonNuevoArchivo.UseVisualStyleBackColor = true;
+            buttonNuevoArchivo.Click += buttonNuevoArchivo_Click;
             // 
-            // openFileDialog1
+            // openFileDialog
             // 
-            openFileDialog1.FileName = "openFileDialog1";
+            openFileDialog.InitialDirectory = "Desktop";
             // 
             // label5
             // 
@@ -141,36 +139,38 @@
             label5.TabIndex = 10;
             label5.Text = "Nuevo nombre del archivo (opcional):";
             // 
-            // textBox2
+            // textBoxNuevoNombre
             // 
-            textBox2.Location = new Point(285, 114);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(258, 22);
-            textBox2.TabIndex = 9;
+            textBoxNuevoNombre.Location = new Point(285, 114);
+            textBoxNuevoNombre.Name = "textBoxNuevoNombre";
+            textBoxNuevoNombre.Size = new Size(258, 22);
+            textBoxNuevoNombre.TabIndex = 9;
             // 
-            // button2
+            // buttonReemplazar
             // 
-            button2.Location = new Point(12, 162);
-            button2.Name = "button2";
-            button2.Size = new Size(531, 39);
-            button2.TabIndex = 11;
-            button2.Text = "Reemplazar archivos";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            buttonReemplazar.Location = new Point(12, 162);
+            buttonReemplazar.Name = "buttonReemplazar";
+            buttonReemplazar.Size = new Size(531, 39);
+            buttonReemplazar.TabIndex = 11;
+            buttonReemplazar.Text = "Reemplazar archivos";
+            buttonReemplazar.UseVisualStyleBackColor = true;
+            buttonReemplazar.Click += buttonReemplazar_Click;
             // 
-            // progressBar1
+            // progressBar
             // 
-            progressBar1.Location = new Point(12, 207);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(531, 28);
-            progressBar1.TabIndex = 12;
-            progressBar1.Visible = false;
+            progressBar.Location = new Point(12, 162);
+            progressBar.MarqueeAnimationSpeed = 1;
+            progressBar.Name = "progressBar";
+            progressBar.Size = new Size(531, 39);
+            progressBar.Style = ProgressBarStyle.Marquee;
+            progressBar.TabIndex = 12;
+            progressBar.Visible = false;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Lato", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(12, 246);
+            label6.Location = new Point(12, 216);
             label6.Name = "label6";
             label6.Size = new Size(78, 15);
             label6.TabIndex = 13;
@@ -181,29 +181,32 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(556, 270);
+            ClientSize = new Size(556, 246);
             Controls.Add(label6);
-            Controls.Add(progressBar1);
-            Controls.Add(button2);
+            Controls.Add(progressBar);
+            Controls.Add(buttonReemplazar);
             Controls.Add(label5);
-            Controls.Add(textBox2);
-            Controls.Add(button1);
+            Controls.Add(textBoxNuevoNombre);
+            Controls.Add(buttonNuevoArchivo);
             Controls.Add(label4);
-            Controls.Add(textBox1);
+            Controls.Add(textBoxRutaArchivoReemplazo);
             Controls.Add(label3);
-            Controls.Add(textBoxFileName);
+            Controls.Add(textBoxNombreArchivoBuscar);
             Controls.Add(label2);
             Controls.Add(buttonProyecto);
             Controls.Add(label1);
             Controls.Add(textBoxProyecto);
             Font = new Font("Lato", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            MaximizeBox = false;
             Name = "Formulario";
             ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Reemplazar archivos";
             Load += Form1_Load;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = true; 
+            ControlBox = true;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -213,18 +216,18 @@
         private TextBox textBoxProyecto;
         private Label label1;
         private Button buttonProyecto;
-        private FolderBrowserDialog folderBrowserDialog1;
+        private FolderBrowserDialog folderBrowserDialog;
         private Label label2;
         private Label label3;
-        private TextBox textBoxFileName;
+        private TextBox textBoxNombreArchivoBuscar;
         private Label label4;
-        private TextBox textBox1;
-        private Button button1;
-        private OpenFileDialog openFileDialog1;
+        private TextBox textBoxRutaArchivoReemplazo;
+        private Button buttonNuevoArchivo;
+        private OpenFileDialog openFileDialog;
         private Label label5;
-        private TextBox textBox2;
-        private Button button2;
-        private ProgressBar progressBar1;
+        private TextBox textBoxNuevoNombre;
+        private Button buttonReemplazar;
+        private ProgressBar progressBar;
         private Label label6;
     }
 }
