@@ -12,7 +12,7 @@ namespace replaceFiles
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(572, 252);
+            this.Size = new Size(572, 255);
         }
 
 
@@ -42,7 +42,7 @@ namespace replaceFiles
             buttonReemplazar.Visible = !visible;
             label6.Visible = visible;
             label6.Text = texto;
-            this.Size = (visible) ? new Size(572, 285) : new Size(572, 252);
+            this.Size = (visible) ? new Size(572, 285) : new Size(572, 255);
         }
 
         private async void buttonReemplazar_Click(object sender, EventArgs e)
